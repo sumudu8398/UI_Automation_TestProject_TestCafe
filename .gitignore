@@ -1,0 +1,19 @@
+# ignore files with the .log extension
+*.log
+
+# ignore a specific file called debug.log
+debug.log
+
+# ignore all files in the logs/ directory
+logs/
+
+# ignore all files in the build/ directory and its subdirectories
+build/
+
+# ignore all files with the .tmp extension in the current directory and its subdirectories
+*.tmp
+
+node_modules
+package-lock.json
+package.json
+.idea
